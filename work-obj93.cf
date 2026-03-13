@@ -1,0 +1,7 @@
+v 4
+file . "testbench.vhd" "2510d2e4f1d04296d349c933b9a993458312451f" "20260313153125.249":
+  entity testbench_mhl2 at 1( 0) + 0 on 47;
+  architecture rtl of testbench_mhl2 at 5( 120) + 0 on 48;
+file . "MorseEA.vhd" "288ea57f40e8876d21b137dd2f81f8bf832a621c" "20260313153125.248":
+  entity morseea at 1( 0) + 0 on 45;
+  architecture behavioral of morseea at 6( 187) + 0 on 46;
