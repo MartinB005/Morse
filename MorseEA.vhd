@@ -1,6 +1,6 @@
 library ieee;use ieee.std_logic_1164.all;use ieee.numeric_std.all;
 entity MorseEA is
- port (X : in unsigned(5 downto 0):=(others=>'0'); --CDEF
+ port (X : in unsigned(5 downto 0):=(others=>'0'); 
  Y, STOP : out std_logic:='0');
 end entity;
 architecture behavioral of MorseEA is
